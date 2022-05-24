@@ -1,0 +1,13 @@
+//Create server socket in python using the socket lib. (default interface is 127.0.0.1:<port>)
+
+	python3 server.py
+
+//Create client interface using zmq api in c
+
+	gcc -Wall -g test.c -lstdc++ -lzmq -o test.out 
+
+
+//install zmq by :
+
+	sudo apt-get install libzmq3-dev
+
