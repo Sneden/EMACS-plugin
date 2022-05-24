@@ -1,0 +1,10 @@
+//Creates python server 
+
+	python3 server.py
+
+//client.el file runs on emacs, connects to server program and sends message to server. 
+
+	compile and load client.el (emacs lisp file)
+
+//require M-x package install epc, cl using MELPA package archive in init file.
+
